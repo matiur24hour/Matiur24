@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matiur24 — সত্য খবর, প্রমাণসহ</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #17202a;
+    }
+
+    header {
+      background: #063970;
+      color: white;
+      padding: 16px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #063970, #0878c9);
+      color: white;
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ffca28;
+      color: #111;
+      padding: 13px 24px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #063970;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #063970;
+    }
+
+    footer {
+      background: #17202a;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">Matiur24</div>
+
+    <nav>
+      <a href="#">হোম</a>
+      <a href="#news">খবর</a>
+      <a href="#submit">খবর জমা দিন</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>সত্য খবর, প্রমাণসহ</h1>
+    <p>আপনার কাছে থাকা গুরুত্বপূর্ণ তথ্য ও প্রমাণ আমাদের জানান।</p>
+
+    <a class="btn" href="#submit">খবর জমা দিন</a>
+  </section>
+
+  <section class="section" id="news">
+    <h2>মতিউর২৪ কেন?</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>📰 খবর জমা দিন</h3>
+        <p>
+          গুরুত্বপূর্ণ কোনো ঘটনা বা খবর সম্পর্কে তথ্য আমাদের কাছে পাঠান।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>📷 প্রমাণ দিন</h3>
+        <p>
+          ছবি, ভিডিও, অডিও, ডকুমেন্ট বা অন্যান্য প্রাসঙ্গিক প্রমাণ জমা দিতে পারবেন।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>🔍 যাচাই</h3>
+        <p>
+          প্রকাশের আগে সাংবাদিক ও সম্পাদকীয় টিম তথ্য যাচাই করবে।
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>✅ যাচাই করা খবর</h3>
+        <p>
+          যাচাই সম্পন্ন হওয়ার পর উপযুক্ত খবর প্রকাশ করা হবে।
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section" id="submit">
+    <h2>আপনার কাছে খবর আছে?</h2>
+
+    <div style="text-align:center;">
+      <p style="margin-bottom:20px;">
+        তথ্য ও প্রমাণসহ আমাদের কাছে খবর পাঠান।
+      </p>
+
+      <a class="btn" href="#">
+        খবর জমা দেওয়ার ফর্ম
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Matiur24 — সকল অধিকার সংরক্ষিত
+  </footer>
+
+</body>
+</html>
